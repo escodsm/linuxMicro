@@ -2,6 +2,6 @@ const btn = document.getElementById("btn");
 const title = document.getElementById("title");
 
 btn.addEventListener("click", ()=> {
-	title.textContent = "Button clicked!";
-	title.style.color = "green";
+	title.textContent = "Blue branch says hi";
+	title.style.color = "blue";
 });
