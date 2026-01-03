@@ -3,4 +3,5 @@ const title = document.getElementById("title");
 
 btn.addEventListener("click", ()=> {
 	title.textContent = "Button clicked!";
+	title.style.color = "green";
 });
